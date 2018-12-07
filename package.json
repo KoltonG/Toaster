@@ -1,6 +1,26 @@
 {
   "name": "@koltong/toaster",
   "version": "0.0.1",
+  "description": "Transforms CSS styles to JSON styles",
+  "keywords": [
+    "CSS",
+    "JSON",
+    "CSS To JSON"
+  ],
+  "author": {
+    "name": "Kolton Gagnon",
+    "url": "https://github.com/KoltonG"
+  },
+  "contributors": [
+    "@KoltonG"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoltonG/Toaster"
+  },
+  "bugs": {
+    "url": "https://github.com/koltong/toaster/issues"
+  },
   "main": "index.js",
   "license": "MIT",
   "scripts": {
