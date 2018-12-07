@@ -1,0 +1,12 @@
+{
+  "name": "toaster",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs --"
+  },
+  "dependencies": {
+    "css-to-object": "^1.1.0"
+  }
+}
