@@ -1,6 +1,6 @@
 {
   "name": "@koltong/toaster",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Transforms CSS styles to JSON styles",
   "keywords": [
     "CSS",
