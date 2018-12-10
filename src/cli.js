@@ -1,15 +1,15 @@
+#!/usr/bin/env node
 /**
  * Imports
  */
-import cssToObject from 'css-to-object';
-import fs from 'fs';
-
+// Libraries
+const cssToObject = require('css-to-object');
+const fs = require('fs');
 
 /**
  * Constants
  */
-const commands = process.argv;
-
+const [,, ...args] = process.argv; // Pickup all arguments except the first two
 
 /**
  * Transforms .css files to .json files
@@ -31,8 +31,7 @@ function start(inputPath, outputPath) {
   fs.writeFileSync(outputPath, JSON.stringify(cssObject, null, 2));
 }
 
-
 /**
  * Init
  */
-start(commands[3], commands[4]);
+start(args[0], args[1]);
