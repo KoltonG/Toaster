@@ -2,7 +2,7 @@
 
 > Transforms CSS styles to JSON styles
 
-Toaster aims to simplify transformation of CSS styles (what we call **_bread_**) to JSON styles (what we call **_toast_**).
+Toaster aims to simplify the transformation of CSS styles (what we call **_bread_**) to JSON styles (what we call **_toast_**).
 
 ## Supported Styles
 
@@ -12,21 +12,31 @@ CSS | JSON
 
 ## CLI Usage
 
-Once you have cloned the repository locally, use this command inside the root of the repo.
-
-### Install Dependendies
+### With NPX
 
 ```sh
-> yarn
+> npx @koltong/toaster <bread> <toast>
 ```
 
-### Transform CSS to JSON
+### With Global Install
+
+Verify if you have [node](http://nodejs.org/) and [npm](https://www.npmjs.org/) installed.
+
+Install package globally.
 
 ```sh
-> yarn start <bread> <toast>
+> npm install -g @koltong/toaster
 ```
+
+Command line argument.
+
+```sh
+> toaster <bread> <toast>
+```
+
+#### Command Line Arguments
 
 Param  | Description
 ------------ | -------------
-bread | File path of the .css file
-toast | File path for the outputted .json file
+bread | File path of the .css file. Ex: `./test.css`
+toast | File path for the outputted .json file. Ex: `./test.json`
